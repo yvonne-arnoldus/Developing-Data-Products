@@ -1,0 +1,36 @@
+Earthquakes Data
+========================================================
+author: Yvonne Arnoldus
+date: November 25th, 2014
+
+## Plotting epi centrum of earthquakes on a map
+
+Data
+========================================================
+
+## The application uses data collect form earthquakes
+
+```{r}
+eq <- read.csv("earthquakes.csv")
+summary(eq[, c(1,3,4)])
+```
+
+How to use
+========================================================
+
+## Within the App you can change the following parameters to determent which earthquakes to show:
+
+* Magnitude
+* Latitude
+* Longitude
+
+
+Applications
+========================================================
+
+## This application is easy to use can thus be used in elementry earth sciences classes. So the childern can learn about were on earth more earthquakes occure.
+
+Future
+========================================================
+
+## The next version of this app will have support to change input data and zoom in on the map
